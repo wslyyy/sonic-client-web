@@ -232,7 +232,8 @@ const getPerform = () => {
         androidPerfChartMap[key].printProcFps();
         androidPerfChartMap[key].printProcThread();
         androidPerfChartMap[key].printCpu();
-        androidPerfChartMap[key].printSingleCpu();
+        //androidPerfChartMap[key].printAnalyze();
+        //androidPerfChartMap[key].printSingleCpu();
         androidPerfChartMap[key].printMem();
         androidPerfChartMap[key].printNetwork();
       } else {
